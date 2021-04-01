@@ -1,0 +1,49 @@
+html {
+    background-image: url('img/Mephysics.jpg');
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
+    background-position: center center;
+    background-color: transparent;
+}
+
+.maintenancepage {
+    color: whitesmoke;
+    text-shadow: 1px 1px black;
+}
+
+.maintenancepagecenter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    font: 24px Helvetica, sans-serif;
+}
+
+.copyrightfooter {
+    position: absolute;
+    color: whitesmoke;
+    background-color: #333;
+    text-align: center;
+    width: 100%;
+    bottom: 0%;
+    left: 0%;
+    font-family: Helvetica;
+    font-size: 15px;
+    padding-top: 15px;
+}
+
+a {
+    color: #dc8100; 
+    text-decoration: none; 
+}
+
+a:hover { 
+    color: #333; 
+    text-decoration: none; 
+}
