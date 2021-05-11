@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap');
+
+html, body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 1080px;
+    background-image: url('../../img/grey.png');
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
+    background-position: center center;
+    background-color: #43464b;
+}
+
+.homepage {
+    position: absolute;
+    top: 75px;
+    left: 50px;
+    color: whitesmoke;
+    text-shadow: 1px 1px black;
+    line-height: 55%;
+}
+
+.navbarfixedtop {
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.textleft {
+    text-align: left;
+}
+
+.textrightspacing {
+    padding-left: 20px;
+}
+
+.footer {
+    position: relative;
+    width: 100%;
+    top: 100%;
+}
+
+.copyrightfooter {
+    position: absolute;
+    color: whitesmoke;
+    background-color: #333;
+    text-align: center;
+    width: 100%;
+    font-family: Helvetica;
+    font-size: 15px;
+    padding-top: 15px;
+    padding-bottom: 1px;
+}
+
+a {
+    color: #dc8100; 
+    text-decoration: none; 
+}
+
+a:hover { 
+    color: #333; 
+    text-decoration: none; 
+}
+
+.glow:hover {
+    text-shadow: 1px 1px 2px whitesmoke;
+}
+
+@media only screen and (max-width: 1080px) and (orientation: portrait) { /* Layar hp portrait */
+    html, body {
+      width: 100%;
+      height: 1080px;
+    }
+}
+
+@media only screen and (min-width: 1080px) and (orientation: portrait) { /* Layar FHD portrait */
+    html, body {
+      width: 100%;
+      height: 1920px;
+    }
+}
+
+@media only screen and (min-width: 1920px) and (orientation: landscape) { /* Layar FHD landscape */
+    html, body {
+      width: 100%;
+      height: 1080px;
+    }
+}
+
+@media only screen and (min-width: 2160px) and (orientation: portrait) { /* Layar 4k portrait */
+    html, body {
+      width: 100%;
+      height: 3840px;
+    }
+}
+
+@media only screen and (min-width: 3840px) and (orientation: landscape) { /* Layar 4k Landscape */
+    html, body {
+      width: 100%;
+      height: 2160px;
+    }
+}
+
